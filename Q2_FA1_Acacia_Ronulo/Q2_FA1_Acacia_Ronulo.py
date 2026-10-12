@@ -11,10 +11,12 @@ def divide(a, b):
   if b == 0:
     return "Cannot divide by zero."
   return a / b
-
+  
+# Get inputs
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
+# Display menu
 print("Choose operation:")
 print("1 - Addition")
 print("2 - Subtraction")
@@ -23,6 +25,7 @@ print("4 - Division")
 
 choice = input("Enter choice: ")
 
+# Compute and display result
 if choice == '1':
   print("Result:", add(num1, num2))
 elif choice == '2':
